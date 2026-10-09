@@ -1,0 +1,38 @@
+{
+  "name": {
+    "translate": "effect.injuries.broken_arm"
+  },
+  "category": "bodily",
+  "slot": 1,
+  "color": "#8B5A2B",
+  "hud_effect": "injuries:broken_arm",
+  "attributes": [
+    {
+      "attribute": "minecraft:attack_damage",
+      "amount": -4.0,
+      "operation": "add_value"
+    }
+  ],
+  "tick": [
+    {
+      "interval": 20,
+      "effects": [
+        {
+          "effect": "minecraft:mining_fatigue",
+          "duration": 60,
+          "amplifier": 1
+        }
+      ]
+    }
+  ],
+  "causes": [
+    {
+      "damage_types": "#injuries:wounding",
+      "attacker": {},
+      "any_source": true,
+      "exclude_damage_types": "#injuries:excluded_from_wounds",
+      "min_damage": 5,
+      "chance": 0.15
+    }
+  ]
+}

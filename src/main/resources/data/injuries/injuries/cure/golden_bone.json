@@ -1,0 +1,18 @@
+{
+  "item": {
+    "items": "injuries:golden_bone"
+  },
+  "injuries": [
+    "injuries:broken_arm",
+    "injuries:broken_leg",
+    "injuries:fractured_rib",
+    "injuries:sprained_ankle",
+    "injuries:dislocated_shoulder",
+    "injuries:punctured_lung",
+    "injuries:compound_fracture"
+  ],
+  "slot": [
+    1,
+    6
+  ]
+}

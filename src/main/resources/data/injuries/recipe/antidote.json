@@ -1,0 +1,3 @@
+{ "type": "minecraft:crafting_shapeless", "category": "misc",
+  "ingredients": ["minecraft:milk_bucket", "minecraft:golden_carrot"],
+  "result": { "id": "injuries:antidote", "count": 1 } }

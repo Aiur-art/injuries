@@ -1,0 +1,40 @@
+{
+  "name": {
+    "translate": "effect.injuries.vertigo"
+  },
+  "category": "bodily",
+  "slot": 2,
+  "color": "#B0A8E0",
+  "hud_effect": "injuries:vertigo",
+  "attributes": [
+    {
+      "attribute": "minecraft:safe_fall_distance",
+      "amount": -1.5,
+      "operation": "add_value"
+    }
+  ],
+  "tick": [
+    {
+      "interval": 300,
+      "effects": [
+        {
+          "effect": "minecraft:nausea",
+          "duration": 100,
+          "amplifier": 0
+        }
+      ]
+    }
+  ],
+  "causes": [
+    {
+      "damage_types": "minecraft:fall",
+      "min_damage": 5,
+      "chance": 0.1
+    },
+    {
+      "damage_types": "#minecraft:is_explosion",
+      "min_damage": 3,
+      "chance": 0.35
+    }
+  ]
+}

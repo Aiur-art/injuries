@@ -1,0 +1,3 @@
+{ "type": "minecraft:crafting_shapeless", "category": "misc",
+  "ingredients": ["injuries:bandage", "injuries:splint", "minecraft:sweet_berries"],
+  "result": { "id": "injuries:medkit", "count": 1 } }

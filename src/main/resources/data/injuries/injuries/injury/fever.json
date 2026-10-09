@@ -1,0 +1,33 @@
+{
+  "name": {
+    "translate": "effect.injuries.fever"
+  },
+  "category": "bodily",
+  "slot": 3,
+  "color": "#E8B040",
+  "hud_effect": "injuries:fever",
+  "attributes": [
+    {
+      "attribute": "minecraft:attack_damage",
+      "amount": -2.0,
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:movement_speed",
+      "amount": -0.08,
+      "operation": "add_multiplied_total"
+    }
+  ],
+  "tick": [
+    {
+      "interval": 200,
+      "effects": [
+        {
+          "effect": "minecraft:hunger",
+          "duration": 100,
+          "amplifier": 0
+        }
+      ]
+    }
+  ]
+}

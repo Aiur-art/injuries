@@ -1,0 +1,44 @@
+{
+  "name": {
+    "translate": "effect.injuries.compound_fracture"
+  },
+  "category": "bodily",
+  "slot": [
+    1,
+    6
+  ],
+  "color": "#E8E0D0",
+  "hud_effect": "injuries:compound_fracture",
+  "attributes": [
+    {
+      "attribute": "minecraft:attack_damage",
+      "amount": -3.0,
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:movement_speed",
+      "amount": -0.15,
+      "operation": "add_multiplied_total"
+    }
+  ],
+  "causes": [
+    {
+      "damage_types": "#injuries:wounding",
+      "attacker": {},
+      "any_source": true,
+      "exclude_damage_types": "#injuries:excluded_from_wounds",
+      "min_damage": 9,
+      "chance": 0.25
+    },
+    {
+      "damage_types": "#minecraft:is_explosion",
+      "min_damage": 7,
+      "chance": 0.25
+    },
+    {
+      "damage_types": "minecraft:fall",
+      "min_damage": 8,
+      "chance": 0.35
+    }
+  ]
+}

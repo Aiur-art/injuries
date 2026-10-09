@@ -1,0 +1,64 @@
+{
+  "name": {
+    "translate": "effect.injuries.soul_burn"
+  },
+  "category": "magical",
+  "slot": [
+    4,
+    7
+  ],
+  "color": "#2FD6D0",
+  "hud_effect": "injuries:soul_burn",
+  "attributes": [
+    {
+      "attribute": "minecraft:max_health",
+      "amount": -2.0,
+      "operation": "add_value"
+    }
+  ],
+  "tick": [
+    {
+      "interval": 80,
+      "damage": 0.25,
+      "effects": [
+        {
+          "effect": "minecraft:slowness",
+          "duration": 60,
+          "amplifier": 0
+        }
+      ]
+    }
+  ],
+  "causes": [
+    {
+      "damage_types": "#minecraft:is_fire",
+      "victim": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:soul_fire",
+              "minecraft:soul_campfire",
+              "minecraft:soul_lantern"
+            ]
+          }
+        }
+      },
+      "chance": 0.5
+    },
+    {
+      "damage_types": "#minecraft:is_fire",
+      "victim": {
+        "stepping_on": {
+          "block": {
+            "blocks": [
+              "minecraft:soul_sand",
+              "minecraft:soul_soil",
+              "minecraft:soul_campfire"
+            ]
+          }
+        }
+      },
+      "chance": 0.5
+    }
+  ]
+}

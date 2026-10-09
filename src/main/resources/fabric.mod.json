@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "injuries",
+  "version": "${version}",
+  "name": "Injuries",
+  "description": "Health bar is to easy? Add a bit of realism and difficulty with broken bones, bleeding and medicine. Press H to check yourself, Shift+H to examine another player.",
+  "authors": [
+    "Aiur",
+    {
+      "name": "Aiur",
+      "contact": {
+        "homepage": "https://discord.com/users/416628067516284930",
+        "sources": "https://discord.com/users/416628067516284930"
+      }
+    }
+  ],
+  "license": "CC-BY-NC-SA-4.0",
+  "environment": "*",
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "entrypoints": {
+    "main": ["com.example.injuries.InjuriesMod"],
+    "client": [
+      "com.injuries.client.InjuriesClient"
+    ]
+  }
+}

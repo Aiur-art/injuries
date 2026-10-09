@@ -1,0 +1,34 @@
+{
+  "name": {
+    "translate": "effect.injuries.frostbite"
+  },
+  "category": "bodily",
+  "slot": 4,
+  "color": "#8FD3F4",
+  "hud_effect": "injuries:frostbite",
+  "attributes": [
+    {
+      "attribute": "minecraft:movement_speed",
+      "amount": -0.1,
+      "operation": "add_multiplied_total"
+    },
+    {
+      "attribute": "minecraft:attack_speed",
+      "amount": -0.15,
+      "operation": "add_multiplied_total"
+    }
+  ],
+  "tick": [
+    {
+      "interval": 200,
+      "damage": 0.25
+    }
+  ],
+  "causes": [
+    {
+      "damage_types": "minecraft:freeze",
+      "min_damage": 1,
+      "chance": 0.3
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": {
+    "translate": "effect.injuries.burn"
+  },
+  "category": "bodily",
+  "slot": 4,
+  "color": "#E25822",
+  "hud_effect": "injuries:burn",
+  "tick": [
+    {
+      "interval": 20,
+      "effects": [
+        {
+          "effect": "minecraft:hunger",
+          "duration": 60,
+          "amplifier": 0
+        }
+      ]
+    },
+    {
+      "interval": 100,
+      "damage": 0.25
+    }
+  ],
+  "causes": [
+    {
+      "damage_types": "#minecraft:is_fire",
+      "min_damage": 2,
+      "chance": 0.4
+    }
+  ]
+}

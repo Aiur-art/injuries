@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GGG",
+    "GBG",
+    "GGG"
+  ],
+  "key": {
+    "G": "minecraft:gold_nugget",
+    "B": "minecraft:bone"
+  },
+  "result": {
+    "id": "injuries:golden_bone",
+    "count": 1
+  }
+}

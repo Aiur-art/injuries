@@ -1,0 +1,12 @@
+{
+  "item": {
+    "items": "injuries:burn_salve"
+  },
+  "injuries": [
+    "injuries:burn",
+    "injuries:frostbite",
+    "injuries:soul_burn",
+    "injuries:heatstroke"
+  ],
+  "slot": 4
+}

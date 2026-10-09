@@ -1,0 +1,24 @@
+{
+  "item": {
+    "items": "injuries:medkit"
+  },
+  "injuries": [
+    "injuries:infection",
+    "injuries:bleeding",
+    "injuries:broken_arm",
+    "injuries:broken_leg",
+    "injuries:laceration",
+    "injuries:fever",
+    "injuries:sprained_ankle",
+    "injuries:dislocated_shoulder",
+    "injuries:cursed_wound",
+    "injuries:compound_fracture",
+    "injuries:sepsis",
+    "injuries:head_wound"
+  ],
+  "slot": [
+    0,
+    1,
+    3
+  ]
+}

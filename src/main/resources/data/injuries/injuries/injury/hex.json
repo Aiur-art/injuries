@@ -1,0 +1,27 @@
+{
+  "name": {
+    "translate": "effect.injuries.hex"
+  },
+  "category": "magical",
+  "slot": 7,
+  "color": "#4B0082",
+  "hud_effect": "injuries:hex",
+  "attributes": [
+    {
+      "attribute": "minecraft:armor",
+      "amount": -6.0,
+      "operation": "add_value"
+    }
+  ],
+  "causes": [
+    {
+      "damage_types": [
+        "minecraft:magic",
+        "minecraft:indirect_magic"
+      ],
+      "attacker": {},
+      "min_damage": 2,
+      "chance": 0.15
+    }
+  ]
+}

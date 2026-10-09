@@ -1,0 +1,13 @@
+{
+  "item": {
+    "items": "injuries:splint"
+  },
+  "injuries": [
+    "injuries:broken_arm",
+    "injuries:broken_leg",
+    "injuries:sprained_ankle",
+    "injuries:dislocated_shoulder",
+    "injuries:compound_fracture"
+  ],
+  "slot": 1
+}

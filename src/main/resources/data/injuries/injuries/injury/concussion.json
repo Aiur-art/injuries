@@ -1,0 +1,36 @@
+{
+  "name": {
+    "translate": "effect.injuries.concussion"
+  },
+  "category": "bodily",
+  "slot": 2,
+  "color": "#9A9AC8",
+  "hud_effect": "injuries:concussion",
+  "tick": [
+    {
+      "interval": 200,
+      "effects": [
+        {
+          "effect": "minecraft:nausea",
+          "duration": 60,
+          "amplifier": 0
+        },
+        {
+          "effect": "minecraft:blindness",
+          "duration": 60,
+          "amplifier": 0
+        }
+      ]
+    }
+  ],
+  "causes": [
+    {
+      "damage_types": "#injuries:wounding",
+      "attacker": {},
+      "any_source": true,
+      "exclude_damage_types": "#injuries:excluded_from_wounds",
+      "min_damage": 4,
+      "chance": 0.12
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "item": {
+    "items": "injuries:cold_compress"
+  },
+  "injuries": [
+    "injuries:concussion",
+    "injuries:vertigo",
+    "injuries:heatstroke",
+    "injuries:head_wound"
+  ],
+  "slot": 2
+}

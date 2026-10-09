@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "injuries:ofuda",
+    "injuries:antidote"
+  ],
+  "result": {
+    "id": "injuries:healing_crystal",
+    "count": 1
+  }
+}

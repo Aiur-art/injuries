@@ -1,0 +1,32 @@
+{
+  "name": {
+    "translate": "effect.injuries.broken_leg"
+  },
+  "category": "bodily",
+  "slot": 1,
+  "color": "#6B4423",
+  "hud_effect": "injuries:broken_leg",
+  "attributes": [
+    {
+      "attribute": "minecraft:movement_speed",
+      "amount": -0.3,
+      "operation": "add_multiplied_total"
+    }
+  ],
+  "causes": [
+    {
+      "damage_types": "minecraft:fall",
+      "min_damage": 6
+    },
+    {
+      "damage_types": "minecraft:fall",
+      "min_damage": 3,
+      "chance": 0.5
+    },
+    {
+      "damage_types": "#minecraft:is_explosion",
+      "min_damage": 6,
+      "chance": 0.4
+    }
+  ]
+}

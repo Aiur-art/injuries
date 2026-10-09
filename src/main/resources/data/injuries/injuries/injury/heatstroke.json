@@ -1,0 +1,53 @@
+{
+  "name": {
+    "translate": "effect.injuries.heatstroke"
+  },
+  "category": "bodily",
+  "slot": [
+    2,
+    4
+  ],
+  "color": "#FF9F1C",
+  "hud_effect": "injuries:heatstroke",
+  "attributes": [
+    {
+      "attribute": "minecraft:movement_speed",
+      "amount": -0.1,
+      "operation": "add_multiplied_total"
+    }
+  ],
+  "tick": [
+    {
+      "interval": 20,
+      "effects": [
+        {
+          "effect": "minecraft:hunger",
+          "duration": 60,
+          "amplifier": 0
+        }
+      ]
+    },
+    {
+      "interval": 300,
+      "effects": [
+        {
+          "effect": "minecraft:nausea",
+          "duration": 100,
+          "amplifier": 0
+        }
+      ]
+    }
+  ],
+  "causes": [
+    {
+      "damage_types": "#minecraft:is_fire",
+      "victim": {
+        "location": {
+          "dimension": "minecraft:the_nether"
+        }
+      },
+      "min_damage": 1,
+      "chance": 0.15
+    }
+  ]
+}

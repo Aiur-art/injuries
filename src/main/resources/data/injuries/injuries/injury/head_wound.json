@@ -1,0 +1,45 @@
+{
+  "name": {
+    "translate": "effect.injuries.head_wound"
+  },
+  "category": "bodily",
+  "slot": [
+    0,
+    2
+  ],
+  "color": "#C0392B",
+  "hud_effect": "injuries:head_wound",
+  "attributes": [
+    {
+      "attribute": "minecraft:max_health",
+      "amount": -2.0,
+      "operation": "add_value"
+    }
+  ],
+  "tick": [
+    {
+      "interval": 300,
+      "effects": [
+        {
+          "effect": "minecraft:nausea",
+          "duration": 100,
+          "amplifier": 0
+        }
+      ]
+    },
+    {
+      "interval": 500,
+      "damage": 0.25
+    }
+  ],
+  "causes": [
+    {
+      "damage_types": "#injuries:wounding",
+      "attacker": {},
+      "any_source": true,
+      "exclude_damage_types": "#injuries:excluded_from_wounds",
+      "min_damage": 5,
+      "chance": 0.12
+    }
+  ]
+}

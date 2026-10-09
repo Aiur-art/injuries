@@ -1,0 +1,36 @@
+{
+  "name": {
+    "translate": "effect.injuries.bleeding"
+  },
+  "category": "bodily",
+  "slot": 0,
+  "color": "#8B0000",
+  "hud_effect": "injuries:bleeding",
+  "tick": [
+    {
+      "interval": 400,
+      "damage": 0.25
+    },
+    {
+      "interval": 400,
+      "chance": 0.2,
+      "excludes": [
+        "injuries:infection"
+      ],
+      "grant": [
+        "injuries:infection"
+      ]
+    }
+  ],
+  "causes": [
+    {
+      "damage_types": "#injuries:wounding",
+      "attacker": {},
+      "any_source": true,
+      "exclude_damage_types": "#injuries:excluded_from_wounds",
+      "min_damage": 2,
+      "chance": 0.15,
+      "chance_per_damage": 0.03
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "item": {
+    "items": "injuries:antidote"
+  },
+  "injuries": [
+    "injuries:poisoned",
+    "injuries:wither_rot",
+    "injuries:sepsis"
+  ],
+  "slot": 5
+}

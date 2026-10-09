@@ -1,0 +1,7 @@
+{
+  "values": [
+    "minecraft:fall",
+    "minecraft:freeze",
+    "#minecraft:is_fire"
+  ]
+}

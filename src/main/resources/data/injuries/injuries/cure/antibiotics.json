@@ -1,0 +1,16 @@
+{
+  "item": {
+    "items": "injuries:antibiotics"
+  },
+  "injuries": [
+    "injuries:poisoned",
+    "injuries:infection",
+    "injuries:fever",
+    "injuries:wither_rot",
+    "injuries:sepsis"
+  ],
+  "slot": [
+    3,
+    5
+  ]
+}

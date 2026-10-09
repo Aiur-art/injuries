@@ -1,0 +1,11 @@
+{
+  "item": {
+    "items": "injuries:antiseptic_herbs"
+  },
+  "injuries": [
+    "injuries:infection",
+    "injuries:fever",
+    "injuries:sepsis"
+  ],
+  "slot": 3
+}

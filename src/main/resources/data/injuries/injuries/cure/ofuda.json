@@ -1,0 +1,12 @@
+{
+  "item": {
+    "items": "injuries:ofuda"
+  },
+  "injuries": [
+    "injuries:magic_curse",
+    "injuries:hex",
+    "injuries:soul_burn",
+    "injuries:cursed_wound"
+  ],
+  "slot": 7
+}

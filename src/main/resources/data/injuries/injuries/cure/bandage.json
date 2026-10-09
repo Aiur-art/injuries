@@ -1,0 +1,12 @@
+{
+  "item": {
+    "items": "injuries:bandage"
+  },
+  "injuries": [
+    "injuries:bleeding",
+    "injuries:laceration",
+    "injuries:cursed_wound",
+    "injuries:head_wound"
+  ],
+  "slot": 0
+}

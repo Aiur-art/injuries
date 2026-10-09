@@ -1,0 +1,39 @@
+{
+  "name": {
+    "translate": "effect.injuries.magic_curse"
+  },
+  "category": "magical",
+  "slot": 7,
+  "color": "#7B2CBF",
+  "hud_effect": "injuries:magic_curse",
+  "attributes": [
+    {
+      "attribute": "minecraft:luck",
+      "amount": -2.0,
+      "operation": "add_value"
+    }
+  ],
+  "tick": [
+    {
+      "interval": 300,
+      "effects": [
+        {
+          "effect": "minecraft:darkness",
+          "duration": 100,
+          "amplifier": 0
+        }
+      ]
+    }
+  ],
+  "causes": [
+    {
+      "damage_types": [
+        "minecraft:magic",
+        "minecraft:indirect_magic"
+      ],
+      "attacker": {},
+      "min_damage": 2,
+      "chance": 0.3
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": {
+    "translate": "effect.injuries.wither_rot"
+  },
+  "category": "bodily",
+  "slot": 5,
+  "color": "#2B2B2B",
+  "hud_effect": "injuries:wither_rot",
+  "attributes": [
+    {
+      "attribute": "minecraft:max_health",
+      "amount": -4.0,
+      "operation": "add_value"
+    }
+  ],
+  "tick": [
+    {
+      "interval": 300,
+      "damage": 0.25
+    }
+  ],
+  "causes": [
+    {
+      "damage_types": [
+        "minecraft:wither",
+        "minecraft:wither_skull"
+      ],
+      "min_damage": 2,
+      "chance": 0.4
+    }
+  ]
+}

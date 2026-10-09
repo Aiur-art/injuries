@@ -1,0 +1,17 @@
+{
+  "item": {
+    "items": "injuries:healing_crystal"
+  },
+  "injuries": [
+    "injuries:magic_curse",
+    "injuries:poisoned",
+    "injuries:hex",
+    "injuries:wither_rot",
+    "injuries:soul_burn",
+    "injuries:cursed_wound"
+  ],
+  "slot": [
+    5,
+    7
+  ]
+}

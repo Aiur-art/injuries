@@ -1,0 +1,51 @@
+{
+  "name": {
+    "translate": "effect.injuries.infection"
+  },
+  "category": "bodily",
+  "slot": 3,
+  "color": "#6B8E23",
+  "hud_effect": "injuries:infection",
+  "attributes": [
+    {
+      "attribute": "minecraft:attack_damage",
+      "amount": -4.0,
+      "operation": "add_value"
+    }
+  ],
+  "tick": [
+    {
+      "interval": 100,
+      "effects": [
+        {
+          "effect": "minecraft:poison",
+          "duration": 40,
+          "amplifier": 0
+        }
+      ]
+    },
+    {
+      "interval": 400,
+      "chance": 0.15,
+      "excludes": [
+        "injuries:fever"
+      ],
+      "grant": [
+        "injuries:fever"
+      ]
+    },
+    {
+      "interval": 400,
+      "chance": 0.15,
+      "requires": [
+        "injuries:poisoned"
+      ],
+      "excludes": [
+        "injuries:sepsis"
+      ],
+      "grant": [
+        "injuries:sepsis"
+      ]
+    }
+  ]
+}

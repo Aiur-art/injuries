@@ -1,0 +1,3 @@
+{ "type": "minecraft:crafting_shapeless", "category": "misc",
+  "ingredients": ["minecraft:honey_bottle", "minecraft:snowball"],
+  "result": { "id": "injuries:burn_salve", "count": 1 } }

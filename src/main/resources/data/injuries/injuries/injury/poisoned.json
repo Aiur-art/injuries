@@ -1,0 +1,33 @@
+{
+  "name": {
+    "translate": "effect.injuries.poisoned"
+  },
+  "category": "bodily",
+  "slot": 5,
+  "color": "#4E9331",
+  "hud_effect": "injuries:poisoned",
+  "tick": [
+    {
+      "interval": 60,
+      "effects": [
+        {
+          "effect": "minecraft:poison",
+          "duration": 80,
+          "amplifier": 0
+        }
+      ]
+    }
+  ],
+  "causes": [
+    {
+      "attacker": {},
+      "exclude_damage_types": "#injuries:excluded_from_wounds",
+      "victim": {
+        "effects": {
+          "minecraft:poison": {}
+        }
+      },
+      "chance": 0.35
+    }
+  ]
+}

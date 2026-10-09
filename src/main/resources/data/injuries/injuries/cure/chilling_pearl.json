@@ -1,0 +1,17 @@
+{
+  "item": {
+    "items": "injuries:chilling_pearl"
+  },
+  "injuries": [
+    "injuries:concussion",
+    "injuries:burn",
+    "injuries:frostbite",
+    "injuries:vertigo",
+    "injuries:heatstroke",
+    "injuries:head_wound"
+  ],
+  "slot": [
+    2,
+    4
+  ]
+}

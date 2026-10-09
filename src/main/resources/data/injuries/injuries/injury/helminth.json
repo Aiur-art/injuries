@@ -1,0 +1,27 @@
+{
+  "name": {
+    "translate": "effect.injuries.helminth"
+  },
+  "category": "bodily",
+  "slot": 5,
+  "color": "#f590d7",
+  "hud_effect": "injuries:helminth",
+  "tick": [
+    {
+      "interval": 60,
+      "effects": [
+        {
+          "effect": "minecraft:hunger",
+          "duration": 80,
+          "amplifier": 1
+        }
+      ]
+    }
+  ],
+  "on_eat": [
+    {
+      "items": "#injuries:poisonous_food",
+      "chance": 0.5
+    }
+  ]
+}

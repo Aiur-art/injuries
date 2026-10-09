@@ -1,0 +1,32 @@
+{
+  "name": {
+    "translate": "effect.injuries.sprained_ankle"
+  },
+  "category": "bodily",
+  "slot": 1,
+  "color": "#A0522D",
+  "hud_effect": "injuries:sprained_ankle",
+  "priority": 10,
+  "attributes": [
+    {
+      "attribute": "minecraft:movement_speed",
+      "amount": -0.12,
+      "operation": "add_multiplied_total"
+    },
+    {
+      "attribute": "minecraft:jump_strength",
+      "amount": -0.25,
+      "operation": "add_multiplied_total"
+    }
+  ],
+  "causes": [
+    {
+      "damage_types": "minecraft:fall",
+      "min_damage": 2,
+      "chance": 0.35,
+      "unless_granted": [
+        "injuries:broken_leg"
+      ]
+    }
+  ]
+}

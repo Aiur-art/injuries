@@ -1,0 +1,33 @@
+{
+  "name": {
+    "translate": "effect.injuries.punctured_lung"
+  },
+  "category": "bodily",
+  "slot": 6,
+  "color": "#C77D8E",
+  "hud_effect": "injuries:punctured_lung",
+  "attributes": [
+    {
+      "attribute": "minecraft:movement_speed",
+      "amount": -0.08,
+      "operation": "add_multiplied_total"
+    }
+  ],
+  "tick": [
+    {
+      "interval": 1,
+      "underwater": true,
+      "air_loss": 1
+    }
+  ],
+  "causes": [
+    {
+      "damage_types": "#injuries:wounding",
+      "attacker": {},
+      "any_source": true,
+      "exclude_damage_types": "#injuries:excluded_from_wounds",
+      "min_damage": 8,
+      "chance": 0.15
+    }
+  ]
+}

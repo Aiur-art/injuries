@@ -1,0 +1,31 @@
+{
+  "name": {
+    "translate": "effect.injuries.dislocated_shoulder"
+  },
+  "category": "bodily",
+  "slot": 1,
+  "color": "#C19A6B",
+  "hud_effect": "injuries:dislocated_shoulder",
+  "attributes": [
+    {
+      "attribute": "minecraft:attack_speed",
+      "amount": -0.35,
+      "operation": "add_multiplied_total"
+    },
+    {
+      "attribute": "minecraft:block_break_speed",
+      "amount": -0.35,
+      "operation": "add_multiplied_total"
+    }
+  ],
+  "causes": [
+    {
+      "damage_types": "#injuries:wounding",
+      "attacker": {},
+      "any_source": true,
+      "exclude_damage_types": "#injuries:excluded_from_wounds",
+      "min_damage": 4,
+      "chance": 0.1
+    }
+  ]
+}

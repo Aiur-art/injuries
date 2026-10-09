@@ -1,0 +1,36 @@
+{
+  "name": {
+    "translate": "effect.injuries.sepsis"
+  },
+  "category": "bodily",
+  "slot": [
+    3,
+    5
+  ],
+  "color": "#7A9A01",
+  "hud_effect": "injuries:sepsis",
+  "attributes": [
+    {
+      "attribute": "minecraft:max_health",
+      "amount": -3.0,
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:attack_damage",
+      "amount": -2.0,
+      "operation": "add_value"
+    }
+  ],
+  "tick": [
+    {
+      "interval": 100,
+      "effects": [
+        {
+          "effect": "minecraft:poison",
+          "duration": 40,
+          "amplifier": 0
+        }
+      ]
+    }
+  ]
+}

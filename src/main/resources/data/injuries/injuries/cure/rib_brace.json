@@ -1,0 +1,11 @@
+{
+  "item": {
+    "items": "injuries:rib_brace"
+  },
+  "injuries": [
+    "injuries:fractured_rib",
+    "injuries:punctured_lung",
+    "injuries:compound_fracture"
+  ],
+  "slot": 6
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "injuries:cold_compress",
+    "injuries:burn_salve"
+  ],
+  "result": {
+    "id": "injuries:chilling_pearl",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "injuries:antidote",
+    "injuries:antiseptic_herbs"
+  ],
+  "result": {
+    "id": "injuries:antibiotics",
+    "count": 1
+  }
+}

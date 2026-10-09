@@ -1,0 +1,38 @@
+{
+  "name": {
+    "translate": "effect.injuries.fractured_rib"
+  },
+  "category": "bodily",
+  "slot": 6,
+  "color": "#D8D0C0",
+  "hud_effect": "injuries:fractured_rib",
+  "attributes": [
+    {
+      "attribute": "minecraft:attack_damage",
+      "amount": -8.0,
+      "operation": "add_value"
+    }
+  ],
+  "tick": [
+    {
+      "interval": 20,
+      "effects": [
+        {
+          "effect": "minecraft:hunger",
+          "duration": 60,
+          "amplifier": 0
+        }
+      ]
+    }
+  ],
+  "causes": [
+    {
+      "damage_types": "#injuries:wounding",
+      "attacker": {},
+      "any_source": true,
+      "exclude_damage_types": "#injuries:excluded_from_wounds",
+      "min_damage": 7,
+      "chance": 0.2
+    }
+  ]
+}
