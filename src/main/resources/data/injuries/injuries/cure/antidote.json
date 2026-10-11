@@ -5,7 +5,8 @@
   "injuries": [
     "injuries:poisoned",
     "injuries:wither_rot",
-    "injuries:sepsis"
+    "injuries:sepsis",
+    "injuries:helminth"
   ],
   "slot": 5
 }
