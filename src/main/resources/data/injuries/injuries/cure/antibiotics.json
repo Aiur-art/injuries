@@ -7,7 +7,8 @@
     "injuries:infection",
     "injuries:fever",
     "injuries:wither_rot",
-    "injuries:sepsis"
+    "injuries:sepsis",
+    "injuries:helminth"
   ],
   "slot": [
     3,
